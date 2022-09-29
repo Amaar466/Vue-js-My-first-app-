@@ -4,7 +4,7 @@
 <Photo />
 <Cricket />
 <Method />
-
+<Event />
 </template>
 
 <script>
@@ -12,6 +12,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import Photo from './components/Photo.vue';
 import Cricket from './components/Cricket.vue';
 import Method from './components/Method.vue';
+import Event from './components/Event.vue';
 
 
 
@@ -21,7 +22,8 @@ export default {
     HelloWorld,
     Photo,
     Cricket,
-    Method
+    Method,
+    Event
 }
 }
 </script>
