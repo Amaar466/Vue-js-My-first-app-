@@ -5,6 +5,7 @@
 <Cricket />
 <Method />
 <Event />
+<Bindingtwoway />
 </template>
 
 <script>
@@ -13,6 +14,8 @@ import Photo from './components/Photo.vue';
 import Cricket from './components/Cricket.vue';
 import Method from './components/Method.vue';
 import Event from './components/Event.vue';
+import Bindingtwoway from './components/bindingtwoway.vue';
+
 
 
 
@@ -23,7 +26,8 @@ export default {
     Photo,
     Cricket,
     Method,
-    Event
+    Event,
+    Bindingtwoway
 }
 }
 </script>
