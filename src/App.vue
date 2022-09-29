@@ -6,6 +6,7 @@
 <Method />
 <Event />
 <Bindingtwoway />
+<Getinput />
 </template>
 
 <script>
@@ -15,6 +16,7 @@ import Cricket from './components/Cricket.vue';
 import Method from './components/Method.vue';
 import Event from './components/Event.vue';
 import Bindingtwoway from './components/bindingtwoway.vue';
+import Getinput from './components/Getinput.vue';
 
 
 
@@ -27,7 +29,8 @@ export default {
     Cricket,
     Method,
     Event,
-    Bindingtwoway
+    Bindingtwoway,
+    Getinput
 }
 }
 </script>
