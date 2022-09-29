@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
-<h1>Components</h1>
-    <h2>Vue Js 3</h2>
+<h1 style="background-color: brown;color: white;">Components in Vue Js</h1>
+   
     <h3>{{ msg }}</h3>
     
   </div>

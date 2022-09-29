@@ -3,6 +3,7 @@
 <HelloWorld msg="Welcome to My First Vue.js App" />
 <Photo />
 <Cricket />
+<Method />
 
 </template>
 
@@ -10,6 +11,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Photo from './components/Photo.vue';
 import Cricket from './components/Cricket.vue';
+import Method from './components/Method.vue';
 
 
 
@@ -18,7 +20,8 @@ export default {
     components: {
     HelloWorld,
     Photo,
-    Cricket
+    Cricket,
+    Method
 }
 }
 </script>

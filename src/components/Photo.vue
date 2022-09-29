@@ -9,6 +9,8 @@
     <h2>Email:  {{email}}</h2>
     <h1>Mobile:  {{mobile}}</h1>
     <h1>Mobile:  {{mobile==8888}}</h1>
+   <!-- Use Method in Vue js -->
+   <h1>Name2:  {{getName()}}</h1>
    
     
 
@@ -28,7 +30,13 @@
                     // return 'Conzummate Tech'
                       return a;
                 
+                },
+                methods: {
+                      getName: function() {
+                        return 'Amaar';
+                       
                 }
+  }
                
 
             }
