@@ -1,6 +1,6 @@
 <template>
     <h1>Cricket News</h1>
- <h2>Pak has Won the Match Yesterday by 3 Runs</h2>
+ <h2>Pak has won the Match Yesterday by 3 Runs</h2>
 </template>
 
 <script>

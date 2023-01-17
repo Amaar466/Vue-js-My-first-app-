@@ -7,6 +7,13 @@
 <Event />
 <Bindingtwoway />
 <Getinput />
+<Checkbox />
+<Ifelsecondition />
+<Forloop />
+<Parent />
+<Reuse />
+<!-- <User /> -->
+
 </template>
 
 <script>
@@ -17,6 +24,13 @@ import Method from './components/Method.vue';
 import Event from './components/Event.vue';
 import Bindingtwoway from './components/bindingtwoway.vue';
 import Getinput from './components/Getinput.vue';
+import Checkbox from './components/Checkbox.vue';
+import Ifelsecondition from './components/Ifelsecondition.vue';
+import Forloop from './components/Forloop.vue';
+import Parent from './components/Parent.vue';
+import Child from './components/Child.vue';
+import Reuse from './components/Reuse.vue';
+// import User from './components/User.vue';
 
 
 
@@ -30,7 +44,15 @@ export default {
     Method,
     Event,
     Bindingtwoway,
-    Getinput
+    Getinput,
+    Checkbox,
+    Ifelsecondition,
+    Forloop,
+    Parent,
+    Child,
+    Reuse,
+    // User
+
 }
 }
 </script>
