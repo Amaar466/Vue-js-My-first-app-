@@ -14,6 +14,8 @@
 <Reuse />
 <Htmlbinding />
 <Classbinding />
+<Student name="Hadi"/>
+<Teacher name="Amaar"/>
 <!-- <User /> -->
 
 </template>
@@ -34,6 +36,8 @@ import Child from './components/Child.vue';
 import Reuse from './components/Reuse.vue';
 import Htmlbinding from './components/Htmlbinding.vue';
 import Classbinding from './components/Classbinding.vue';
+import Student from './components/Student.vue';
+import Teacher from './components/Teacher.vue';
 // import User from './components/User.vue';
 
 
@@ -56,7 +60,9 @@ export default {
     Child,
     Reuse,
     Htmlbinding,
-    Classbinding
+    Classbinding,
+    Student,
+    Teacher
     // User
 
 }

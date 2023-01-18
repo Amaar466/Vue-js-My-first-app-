@@ -43,7 +43,7 @@
 }
 .err
 {
-    color:white
+    color:red
 }
 
 </style>
