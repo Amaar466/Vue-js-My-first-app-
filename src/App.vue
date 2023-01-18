@@ -12,6 +12,7 @@
 <Forloop />
 <Parent />
 <Reuse />
+<Htmlbinding />
 <!-- <User /> -->
 
 </template>
@@ -30,6 +31,7 @@ import Forloop from './components/Forloop.vue';
 import Parent from './components/Parent.vue';
 import Child from './components/Child.vue';
 import Reuse from './components/Reuse.vue';
+import Htmlbinding from './components/Htmlbinding.vue';
 // import User from './components/User.vue';
 
 
@@ -51,6 +53,7 @@ export default {
     Parent,
     Child,
     Reuse,
+    Htmlbinding
     // User
 
 }
