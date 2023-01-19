@@ -16,6 +16,8 @@
 <Classbinding />
 <Student name="Hadi"/>
 <Teacher name="Amaar"/>
+<Ref />
+
 <!-- <User /> -->
 
 </template>
@@ -38,6 +40,7 @@ import Htmlbinding from './components/Htmlbinding.vue';
 import Classbinding from './components/Classbinding.vue';
 import Student from './components/Student.vue';
 import Teacher from './components/Teacher.vue';
+import Ref from './components/Ref.vue';
 // import User from './components/User.vue';
 
 
@@ -62,7 +65,8 @@ export default {
     Htmlbinding,
     Classbinding,
     Student,
-    Teacher
+    Teacher,
+    Ref
     // User
 
 }
